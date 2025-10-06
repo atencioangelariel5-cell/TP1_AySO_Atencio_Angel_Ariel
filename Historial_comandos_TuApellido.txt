@@ -1,0 +1,541 @@
+mkdir Documentos
+cd Documentos
+cat > archivo1.txt
+cat achivo1.txt
+cat archivo1.txt
+cat > archivo2.txt
+cat archivo1.txt archivo2.txt >> archivo3.txt
+cat archivo3.txt
+cd $HOME
+cat > archivo1.txt
+cat > archivo2.txt
+grep dias archivo1.txt
+grep -n dias archivo1.txt
+grep -c dias archivo1.txt
+grep martes archivo1.txt | grep miercoles archivo2.txt
+grep -i martes *
+ssh-keygen -t ed25519
+ls -l .ssh/
+sudo systemctl status sshd
+cat .ssh/id_ed25519.pub
+git clone git@github.com:atencioangelariel5-cell/Clase3AySO_Atencio.git
+ls
+cd Clase3AySO_Atencio
+ls
+cat > archivo11.txt
+ls
+history > historial.txt
+ls
+git status
+git add .
+git status
+git commit -m "commit clase4"
+git config --global user.email "atencioangelariel5@gmail.com"
+git config --global user.name "Atencio Angel Ariel"
+git commit -m "commit clase4"
+git push
+cd $HOME
+tree
+snap install tree
+sudo snap install tree
+tree
+ls
+mkdir Clase4
+cd Clase4
+mkdir Practica
+ls
+cd Practica
+ls
+cat > practica1.txt
+ls
+cat practica1.txt >> practica2.txt
+ls
+rm practica1.txt
+ls
+mv practica2.txt/home/vagrant/Clase4
+mv practica2.txt /home/vagrant/Clase4
+ls
+cd ..
+ls
+rm Practicas
+rm -r Practica
+ls
+whoami
+id
+cd Documentos
+cd $HOME
+cd Documentos
+whoami
+id
+w
+cd ..
+cd Clase4
+mkdir Atencio/contactos/proveedores clientes/facturas pedidos
+mkdir Atencio
+mkdir Atencio/contactos
+tree
+rm pedidos
+rm -r pedidos
+ls
+tree
+mkdir contactos/clientes
+mkdir Atencio/contactos/clientes
+mkdir Atencio/contactos/proveedores
+mkdir Atencio/contactos/clientes/facturas
+mkdir Atencio/contactos/clientes/pedidos
+mkdir Atencio/contactos/proveedores/facturas
+mkdir Atencio/contactos/proveedores/pedidos
+mkdir Angel/mama/hijo1
+mkdir Angel
+mkdir Angel/mama
+mkdir Angel/papa
+mkdir Angel/mama/hijo1
+mkdir Angel/mama/hijo2
+mkdir Angel/mama/hijo3
+mkdir Angel/papa/hijo1
+mkdir Angel/papa/hijo2
+mkdir Angel/papa/hijo3
+tree
+exit
+cd Clase4
+tree
+cat /proc/cpuinfo
+cat /prco/cpuinfo | less
+cd $HOME
+cd Documentos
+whoami
+id
+w
+last
+cd $HOME
+grep vagrant /etc/passwd
+sudo grep vagrant /etc/shadow
+sudo su
+exit
+userdel newuser
+sudo userdel newuser
+sudo userdel pepe
+ls -l /home
+userdel [newuser]
+userdel Newuser
+userdel newuser
+grep pepe /etc/passwd
+grep -i alumno /etc/group
+id
+id pepe
+ls l /home
+whoami
+id
+w
+last
+grep vagrant /etc/passwd
+sudo pepe /etc/shadow
+sudo su pepe /ect/shadow
+sudo su vagrant /etc/shadow
+useradd -m -s /bin/bash -c "esto es un comentario" NEWUSER
+sudo useradd -m -s /bin/bash -c "esto es un puto comentario" NEWUSER
+sudo grep vagrant /etc/shadow
+sudo su
+sudo userdel NEWUSER
+tree
+cd Clase4
+cd ..
+mkdir clase5
+cd clase5
+ls -l
+touch practica1.txt
+touch practica2.txt
+ls -l
+chmod 600 practica1.txt
+ls -l
+chmod 444 practica2.txt
+ls -l
+echo "nueva linea" >>practica2.txt
+chmod 644 practica2.txt
+ls -l
+echo "nueva linea" >>practica2.txt
+cat practica2.txt
+cd ..
+ls -l
+chmod -R 777 clase5/
+ls -l
+cd clase5
+ls -l
+mkdir clase6
+ls -l
+cd clase6
+vim script2.sh
+cat script2
+cat script2.sh
+./script2.sh
+ls -l
+chmod 764 script2.sh
+ls -l
+./script2.sh
+vim script3.sh
+ls -
+ls -l
+chmod 764 script3.sh
+ls -l
+./script3.sh
+cd dir1
+ls -l
+cd ..
+ls -l
+cd vagrant
+cd /vagrant
+pwd
+cd $HOME
+pwd
+cd clase6
+d ..
+cd ..
+exit
+sudo etc/passwd
+sudo /etc/passwd
+id
+whoami
+w
+last
+grep vagrant /etc/passwd
+sudo grep vagrant /etc/shadow
+useradd -m -s /bin/bash -c "Nuevo Usuario Practica" UsuarioNuevoPractica
+sudo su
+exit
+sudo su
+exit
+sudo su
+$XDG_CONFIG_HOME/git/credentials
+exit
+git config --global --unset PEPE
+git config --global user.name
+su PEPE
+gitconfig
+exit
+useradd -m -s/bin/bash -c "comentario" pepe1
+sudo useradd -m -s/bin/bash -c "comentario" pepe1
+sudo groupadd grupoclase
+sudo useradd -m -s/bin/bash -c "alumno pepe1" grupoclase pepe1
+sudo useradd -m -s/bin/bash -c "alumno pepe1" grupoclase
+sudo groupadd ALUMNOS
+sudo useradd -m -s/bin/bash -c "alumno pepe" -G ALUMNOS pepe1
+sudo useradd -m -s/bin/bash -c "alumno pepe" -g ALUMNOS pepe1
+sudo useradd -m -s/bin/bash -c "alumno pepe" -G ALUMNOS PEPE1
+grep PEPE1 /etc/passwd
+grep -i ALUMNOS /etc/group
+id
+PEPE1 id
+ls -l/home
+ls -l /home
+passwd PEPE1
+sudo passwd PEPE1
+su - PEPE1
+userdel pepe
+userdel pepe1
+sudo userdel pepe1
+sudo userdel PEPE
+su - PEPE1
+sudo usermod -aG sudo PEPE1
+su - PEPE1
+usermod -help
+usermod -s /bin/sh PEPE1
+su - PEPE1
+sudo usermod -s /bin/sh PEPE1
+su - PEPE1
+grep PEPE1 /etc/shadow
+sudo grep PEPE1 /etc/shadow
+sudo usermod -G Alumnos PEPE1
+chown
+O chown
+chown --help
+chmod
+chown PEPE1 practica1.txt
+ls -l
+ls -l /home
+ls -l /home/PEPE1
+sudo ls -l /home/PEPE1
+su - PEPE1
+sudo chown vagrant:vagrant /home/PEPE1/textoPEPE1.txt
+sudo ls -l /home/PEPE1
+pwd
+mkdir clase5
+clase5.5
+mkdir clase5.5
+ls -l
+ls -l /home
+cd /home/PEPE1
+sudo cd /home/PEPE1
+ls -l /home/PEPE1
+sudo ls -l /home/PEPE1
+su PEPE1
+sudo usermod -aG sudo PEPE1
+su PEPE1
+ls -l /home/PEPE1/textoPEPE1.txt
+sudo ls -l /home/PEPE1/textoPEPE1.txt
+pwd
+ls -l
+cd clase5.5
+echo "linea1" > practica1.txt
+echo "linea1" > practica2.txt
+ls -l
+chmod 600 practica1.txt
+chmod 444 prctica2.txt
+chmod 444 practica2.txt
+ls -l
+echo "linea2" >> practica2.txt
+sudo echo "linea2" >> practica2.txt
+chmod 600 practica2.txt
+echo "linea2" >> practica2.txt
+ls -l practica2.txt
+ls -l
+chmod 644 practica2.txt
+ls -l
+cat practica 2.txt
+cat practica2.txt
+cd
+ld -l
+cd ..
+pwd
+cd ..
+pwd
+ls -l
+cd $HOME
+pwd
+ls-l
+ls -l
+chmod 777 clase5.5/
+ls -l
+chmod clase5.5/*
+chmod 666 clase5.5/*
+ls -l
+ls -l clase5.5
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd
+pwd
+mkdir repogit
+cd repogit
+ls -l
+git clone <URL>
+git clone git@github.com:atencioangelariel5-cell/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+cd..
+cd ..
+pwd
+cd ..
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+cd repogit
+git clone 
+git clone git@github.com:atencioangelariel5-cell/TP1_AySO_Atencio_Angel_Ariel.git
+cd TP
+cd TP1_AySO_Atencio_Angel_Ariel
+pwd
+ls -l
+cat /etc/os-release
+grp --help
+grep --help
+man grep
+grep -i
+grep --ignore-case
+grep --help
+-i
+--ignore-case
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i HOME_URL /etc/os-release
+grep -i home_url /etc/os release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+whoami
+id -un
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.mail "atencioangelariel5@gmail.com"
+git config --global user.name "Atencio Angel Ariel"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cpuinfo
+grep
+grep til -n1
+grep tail -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+ls -l
+pwd
+cd/home/vagrant/repogit
+pwd
+cd ..
+git status
+cd TP1_AySO_Atencio_Angel_Ariel
+git status
+git add datos_usuarios.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+cat <<EOF>> README.md
+Alumno: Angel Ariel Atencio
+Division: 211
+Turno: Tarde
+EOF
+
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p {materia1, materia2}/subdir{uni1, uni2, uni3}
+cd $HOME
+rm materia1
+cd TP1_AySO_Atencio_Angel_Ariel
+cd repogit
+cd TP1_AySO_Atencio_Angel_Ariel
+rm materia1
+rm uni1
+sudo rm materia1
+ls -l
+rm materia2
+ls -l
+rm materia2}
+sudo rm materia2}
+ls -l
+sudo rm uni2
+sudo rm uni2,
+cd HOME
+cd $HOME
+echo ~
+mkdir -p {materia1, materia2}/subdir{uni1, uni2, uni3}
+ls -l
+cd uni1
+mkdir -p materia1/uni1
+mkdir -p materia1/uni2
+mkdir -p materia1/uni3
+ls -l
+mkdir -p materia2/uni1
+mkdir -p materia2/uni2
+mkdir -p materia2/uni3
+ls -l
+sudo rmdir materia2}
+sudo rmdir uni3}
+sudo rmdir uni2,
+sudo rmdir materia2}
+cd materia2}
+ls -l
+rmdir subdir{uni1,
+ls -l
+cd ..
+cd materia2}
+ls -l
+cd ..
+sudo rmdir materia2}
+ls -l
+sudo rmdir {materia1
+cd {materia1
+sudo rmdir {materia1,
+ls -l
+cd clase6
+ls -l
+bash script1
+bash script2
+bash script2.sh
+echo "ls -l | grep sh" > script1
+cat script1
+bash script1
+ls -l
+echo > script_dir.sh
+cd ..
+ls -l
+echo script_dir.sh
+rm script_dir.sh
+cd clase6
+rm script_dir.sh
+ls -l
+cd ..
+pwd
+echo script_dir.sh
+echo > script_dir.sh
+chmod 111 script_dir.sh
+ls-l
+ls -l
+cd repogit
+cd TP1_AySO_Atencio_Angel_Ariel
+git add script_dir.ssh
+git add script_dir.ss
+git add script_dir.sh
+git add .
+ls -l
+cd clase6
+cd ..
+pwd
+cd clase6
+ls -l
+cd ..
+ls -l
+chmod 755 script_dir.sh
+ls -l
+echo "introduce un numero:"
+read numero
+echo "El numero es mayor que 10."
+read numero
+vim 1er_if.sh
+./1er_if.sh
+vim 1er_if.sh
+./1er_if.sh
+sudo ./1er_if.sh
+chmod 755 ./1er_if.sh
+./1er_if.sh
+chmod 755 script_dir.sh
+cd repogit
+/bin/bash  echo "Introduce un número:"  read numero  if [ $numero -gt 10 ]; then  echo "El número es mayor que 10."  else echo "
+El número es menor o igual que 10."  fi
+cd TP1_AySO_Atencio_Angel_Ariel
+git add .script_dir.sh
+git add script_dir.sh
+git add .
+git add.
+git --help
+git mv script_dir.sh
+ls -l
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+tree
+rm subdir{uni1,
+sudo rm subdir{uni1,
+sudo rm uni2,
+sudo rmdir uni2,
+sudo rmdir subdir{uni1,
+sudo rm -r materia2}
+sudo rm -r uni3}
+sudo rm -r {materia1,
+mkdir -p materia1/uni1
+mkdir -p materia1/uni2
+mkdir -p materia1/uni3
+mkdir -p materia2/uni1
+mkdir -p materia2/uni2
+mkdir -p materia2/uni3
+ls -l
+mv script_dir.sh
+mv --help
+mv script_dir.sh -t TP1_AySO_Atencio_Angel_Ariel
+mv script_dir.sh -t repogit
+mv script_dir.sh -T TP1_AySO_Atencio_Angel_Ariel
+cd ..
+ls -l
+cd repogit
+cd TP1_AySO_Atencio_Angel_Ariel
+mv script_dir.sh -T $HOME
+mv script_dir.sh -T HOME
+cat <<EOF > script_dir.sh
+#!/bin/bash
+echo "Script de TP."
+EOF
+
+chmod 755 script_dir.sh
+git add script_dir.sh
+git commit -m "ADD:Añadiendo Script"
+git push
+history -a
+clone .bash_history
